@@ -1,0 +1,3 @@
+input_dir=data/input/
+output_dir=data/output/
+data=s_2.txt, Density.txt
