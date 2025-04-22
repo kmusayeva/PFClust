@@ -46,8 +46,8 @@ NOTE: The config.txt should be in the same directory as PFClust.jar
 ### Running Instructions
 
 1. Open the command line
-2. ``` cd path_to/PFClust.jar ``` 
-3.```java -jar PFClust.jar```
+2. ``` cd path_to/PFClust.jar ```
+3. ```java -jar PFClust.jar```
 
 Note: You might need to change file permissions.
 
@@ -90,8 +90,8 @@ numclust    sil    dunn    threshold
 
 2. **Contents of the file**  
    Element index | Cluster index
-   ```
-   1	9
-   2	9
-```
+   	```
+   	1	9
+   	2	9
+	```
    
