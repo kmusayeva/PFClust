@@ -27,11 +27,10 @@ NOTE: The config.txt should be in the same directory as PFClust.jar
 
    **EXAMPLE:**  
    ----------------------------------------------
-   ```text
    input_dir=data/input/
    output_dir=data/output/
    data=cath_11.txt,Density.txt,group_10.txt
-   ```
+   
    ----------------------------------------------
 
    a) **input_dir**  
@@ -65,13 +64,12 @@ NOTE: The config.txt should be in the same directory as PFClust.jar
 While the program is running it will print out the following:
 
 **EXAMPLE:**  
-```text
 -----------------------------------------------------------------------------
 File: s_2.txt
 Clusters=2    Silhouette=0.656    Dunn_Index=3.977    Threshold=0.94
 Execution time = 1.76 sec 
 -----------------------------------------------------------------------------
-```
+
 
 - **File** – the name of the input file  
 - **Result of the program** – Number of clusters, Silhouette, Dunn_index, Threshold  
@@ -89,10 +87,9 @@ The related information about the clustering output is saved in `name_of_the_inp
 Contents of the file:
 
 **EXAMPLE:**  
-```text
 numclust    sil    dunn    threshold
 16          0.649  1.595  0.944
-```
+
 
 - **numclust** – Number of clusters  
 - **sil** – Silhouette  
@@ -109,7 +106,6 @@ numclust    sil    dunn    threshold
    Element index | Cluster index
 
    **EXAMPLE:**  
-   ```text
    ------------------------------------------------------------------------
    Element index    Cluster index
    1                 9
