@@ -1,9 +1,8 @@
-## This README file describes how to run the PFClust program
+## This project is an improved version of PFClust algorithm implemented in Java.
+
 **Author:** Khadija Musayeva  
 **Date:** 20.06.2013  
 **Last update:** 31.03.2015  
-
-
 
 ### Requirements
 
@@ -20,11 +19,11 @@ NOTE: The config.txt should be in the same directory as PFClust.jar
 
 **Contents of config.txt**  
    
-   **Example:**  
-   ----------------------------------------------
-   input_dir=data/input/
-   output_dir=data/output/
-   data=cath_11.txt,Density.txt,group_10.txt
+	Example:
+    
+   	input_dir=data/input/
+   	output_dir=data/output/
+  	data=cath_11.txt,Density.txt,group_10.txt
    
    
 - **input_dir**  
@@ -47,19 +46,18 @@ NOTE: The config.txt should be in the same directory as PFClust.jar
 ### Running Instructions
 
 1. Open the command line
-2. ```cd path_to/PFClust.jar```
-   _change `path_to` to the real path where you have placed PFClust.jar and related files_
+2. ``` cd path_to/PFClust.jar ``` 
+3.```java -jar PFClust.jar```
 
-3. Type ```java -jar PFClust.jar```
-   _(you might need to change file permissions)_
+Note: You might need to change file permissions.
 
 While the program is running it will print out the following:
 
-**Example:**  
+	Example:
 
-File: s_2.txt
-Clusters=2    Silhouette=0.656    Dunn_Index=3.977    Threshold=0.94
-Execution time = 1.76 sec 
+	File: s_2.txt
+	Clusters=2    Silhouette=0.656    Dunn_Index=3.977    Threshold=0.94
+	Execution time = 1.76 sec 
 
 - **File** – the name of the input file  
 - **Result of the program** – Number of clusters, Silhouette, Dunn_index, Threshold  
@@ -88,11 +86,12 @@ numclust    sil    dunn    threshold
 
 1. **Name of the file**  
    The name of the file is a concatenation of [name of the input file, number of clusters, silhouette, Dunn index, threshold] followed by `.clu`  
-   **EXAMPLE:** `Density16064915950944.clu`
+   Example: `Density16064915950944.clu`
 
 2. **Contents of the file**  
    Element index | Cluster index
-   1	  		         9
-	2			         9
-
+   ```
+   1	9
+   2	9
+```
    
